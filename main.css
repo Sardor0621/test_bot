@@ -1,8 +1,71 @@
 .malumot input{
-    width: 700px;
+    width: 600px;
     height: 60px;
 
 }
 .malumot{
-    width: 705px;
+    /* width: 705px; */
+    padding: 0 130px;
+    display: flex;
+    gap: 300px;
+}
+.md5{
+    background-color:  #F3F5F8;
+
+}
+.raqam{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.raqam1{
+    border-radius: 50%;
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+@media (min-width: 0px) and (max-width: 430px){
+    .kontakt{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .container-fluids{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .inputs{
+        width: 100%;
+    }
+    .inputs input{
+        width: 110%;
+    }
+    .malumot{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+        gap: 20px;
+    }
+    .rasm{
+        margin: 0;
+        padding: 0;
+    }
+    .crinj{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px   ;
+        justify-content: start;
+    }
+    .crink{
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 1px;
+    }
 }
